@@ -1,0 +1,54 @@
+#preamble {
+    max-width: 60em;
+    margin: auto;
+    border-bottom: 1px solid black;
+    nav {
+        margin-top: 0.5em;
+        display: flex;
+        .navitem {
+            padding: 0.5em;
+            font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+            font-size: 1.3em;
+            color: black;
+            text-decoration: none;
+        }
+        .navitem:hover {
+            background-color: rgba(100, 148, 237, 0.3);
+            color: blue;
+        }
+        .filler {
+            flex-grow: 100;
+        }
+    }
+
+}
+
+#content {
+    max-width: 60em;
+    margin: auto;
+    font-family: "Open Sans", Arial, sans-serif;
+
+    ul {
+        li {
+            padding-top: 0.3em;
+            padding-bottom: 0.3em;
+            font-size: 1.2em;
+        }
+    }    
+}
+
+
+body {
+    h1 {
+        text-align: center;
+        font-family: "Inter", Calibri, sans-serif;
+        font-optical-sizing: auto;
+        font-size: 3em;
+    }
+
+    h2 {
+        font-family: "Inter", Calibri, sans-serif;
+        font-optical-sizing: auto;
+        font-size: 2em;        
+    }
+}
