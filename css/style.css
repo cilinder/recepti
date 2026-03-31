@@ -39,7 +39,12 @@
             padding-bottom: 0.3em;
             font-size: 1.2em;
         }
-    }    
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 body {
