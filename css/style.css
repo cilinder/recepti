@@ -28,6 +28,11 @@
     margin: auto;
     font-family: "Open Sans", Arial, sans-serif;
 
+    .recipes {
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
     ul {
         li {
             padding-top: 0.3em;
@@ -39,6 +44,7 @@
 
 
 body {
+    padding-bottom: 2em;
     h1 {
         text-align: center;
         font-family: "Inter", Calibri, sans-serif;
